@@ -9,9 +9,7 @@ The project follows clean-code software engineering principles by decoupling cor
 
 ---
 
-## Repository Structure
-
-The project has been refactored into a modular, professional architecture:
+## Code Structure
 
 ```text
 ├── models.py          # PyTorch implementations of MLP (Attention) and the generic RNN/GRU/LSTM class.
