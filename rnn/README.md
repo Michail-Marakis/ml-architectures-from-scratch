@@ -11,9 +11,9 @@ The project follows clean-code software engineering principles by decoupling cor
 
 ## Code Structure
 
->  *models.py          # PyTorch implementations of MLP (Attention) and the generic RNN/GRU/LSTM class.
->  *utils.py           # Text preprocessing, vocabulary builder, PyTorch Dataset, and train/test loops.
->  *main.ipynb         # Interactive execution notebook containing pipelines, visualization, and persistent metrics.
+* **models.py** - PyTorch implementations of MLP (Attention) and the generic RNN/GRU/LSTM class.
+* **utils.py** - Text preprocessing, vocabulary builder, PyTorch Dataset, and train/test loops.
+* **main.ipynb** - Interactive execution notebook containing pipelines, visualization, and persistent metrics.
 
 ---
 
@@ -102,3 +102,14 @@ This project was developed for educational purposes to:
 - Compare different recurrent architectures in a controlled setting
 - Practice end-to-end NLP model development in PyTorch
 
+---
+
+## Environment & Dependency Setup
+
+Ensure you have a Python environment running (preferably with GPU/CUDA capabilities).
+
+1. Clone or download the repository files (`models.py`, `utils.py`, `main.ipynb`) into your workspace folder.
+2. Install the necessary system dependencies:
+
+```bash
+pip install torch gensim scikit-learn numpy matplotlib
