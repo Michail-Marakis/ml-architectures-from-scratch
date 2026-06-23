@@ -7,9 +7,7 @@ The implementation is done in **PyTorch** and evaluates both **custom-designed C
 The goal is to analyze how architectural choices, data augmentation, and pretrained weights affect model performance.
 
 ---
-## Repository Structure
-
-The project has been refactored into a modular, professional architecture:
+## Code Structure
 
 * **dataset.py** - Handles data normalization, image loading, resizing, RGB channel conversion, and augmentation pipelines.
 * **models.py** - PyTorch implementations of the custom VGGLikeSmall architecture and the ResNet18 configuration variants.
